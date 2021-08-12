@@ -64,27 +64,52 @@ img {
   color: #fff;
 }
 
-.alinhar-conteudo .data {
+.alinhar-conteudo h2 {
   font-family: "Open Sans", Arial, sans-serif;
-  font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
-  margin-top: 20px;
+  max-width: 445px;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
-.barra-fundo {
-  max-width: 853px;
-  height: 5px;
-  border-radius: 5px;
+.alinhar-conteudo .data {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+}
+
+#progresso {
+  display: block;
+  -webkit-appearance: none;
+}
+
+#progresso::-webkit-progress-bar {
+  width: 853px;
   background: #6c2091;
-  margin: 9px 0px 10px 0;
+  border-radius: 50px;
+  height: 5px;
+  margin: 11px 0px;
+}
+#progresso::-moz-progress-bar {
+  width: 853px;
+  background: #6c2091;
+  border-radius: 50px;
+}
+
+#progresso::-webkit-progress-value {
+  border-radius: 50px;
+  background: #18fbb5;
 }
 
 .descricao-evento {
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
   color: #fff;
-  margin-top: 20px;
 }
 
 .evento-selecionado img {
@@ -100,7 +125,6 @@ img {
   letter-spacing: 1px;
   color: #000;
   margin-top: 30px;
-  margin-bottom: 20px;
 }
 
 .eventos {
