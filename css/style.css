@@ -11,7 +11,7 @@ img {
   max-width: 1160px;
   margin: 0 auto;
 }
-
+/* modo dark */
 .btns {
   width: 146px;
   border-radius: 7px;
@@ -40,6 +40,8 @@ img {
 .btn-mode.ativo {
   background: #fff;
 }
+/* fim do modo dark */
+/* evento principal */
 
 .evento-selecionado {
   position: relative;
@@ -117,6 +119,8 @@ img {
   top: -33px;
   right: -40px;
 }
+/* evento principal */
+/* botao para abrir o modal */
 
 .eventos h1 {
   font-family: "Open Sans", Arial, sans-serif;
