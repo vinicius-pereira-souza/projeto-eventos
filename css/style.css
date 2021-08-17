@@ -7,10 +7,98 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* inicio do modal */
+
+.bg-modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centralizar {
+  width: 578px;
+  height: 499px;
+  border-radius: 15px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 40px 495px 40px;
+}
+
+.modal {
+  position: relative;
+  width: 198px;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 378px 124px;
+  grid-template-rows: 56px 40px 120px 197px 40px 37px;
+}
+
+.fechar-modal {
+  color: #5c5c5c;
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  top: 30px;
+  right: -300px;
+}
+
+.modal h1 {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #7746b3;
+  margin: 56px 0 20px 0;
+  grid-area: 1/1/3/2;
+}
+
+.nome-tempo {
+  grid-area: 3/1/4/2;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-event {
+  width: 125px;
+  height: 112px;
+  border-radius: 5px;
+  border: 1px dashed rgb(185, 185, 185);
+  background: rgb(153, 153, 153);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  grid-area: 3/2/4/3;
+}
+
+.bg-event img {
+  margin: 0 auto;
+}
+
+.fileImg {
+  display: none;
+}
+
+.eventContent {
+  grid-area: 4/1/5/3;
+}
+
+.btn {
+  grid-area: 5/1/6/3;
+}
+
+/* final do modal*/
+
 .container-geral {
   max-width: 1160px;
   margin: 0 auto;
 }
+
 /* modo dark */
 .btns {
   width: 146px;

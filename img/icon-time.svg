@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+  <g id="icon-time" transform="translate(-1788 -2479)">
+    <g id="Ellipse_288" data-name="Ellipse 288" transform="translate(1788 2479)" fill="none" stroke="#7746b3" stroke-width="2.1">
+      <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+      <circle cx="10.5" cy="10.5" r="9.45" fill="none"/>
+    </g>
+    <line id="Line_27" data-name="Line 27" y2="6.694" transform="translate(1797.8 2484.5)" fill="none" stroke="#7746b3" stroke-linecap="round" stroke-width="1.8"/>
+    <line id="Line_25" data-name="Line 25" x1="3.825" y2="2.869" transform="translate(1797.8 2488.325)" fill="none" stroke="#7746b3" stroke-linecap="round" stroke-width="1.8"/>
+  </g>
+</svg>
