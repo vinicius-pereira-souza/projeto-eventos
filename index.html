@@ -11,29 +11,30 @@
 
 <body>
   <section class="bg-modal">
-    <div class="centralizar">
-      <form class="modal">
-        <button class="fechar-modal">X</button>
+    <div class="modal">
+      <form class="formularioModal">
         <h1>Adicione um evento</h1>
-        <div class="nome-tempo">
-          <input type="text" name="" id="eventName" placeholder="Nome do evento">
-          <input type="text" name="" id="eventTime" placeholder="Quinta-feira, 28 de agosto">
-        </div>
-        <button class="bg-event">
-          <img src="img/img-select.png" alt="">
-          <input type="file" class="fileImg" id="select-img">
-          <label for="select-img">Insira a capa para seu evento</label>
+        <input type="text" name="nameEvent" id="nameEvent" placeholder="Nome do evento">
+        <img class="icon" src="img/u_calendar-alt.svg" alt="">
+        <input type="text" name="dataEvent" id="dataEvent" placeholder="Quinta-feira, 28 de agosto">
+        <img class="icon2" src="img/icon-time.svg" alt="">
+        <button class="addBg">
+          <img id="descEvent" src="img/img-select.png" alt="">
+          <input type="file" name="descEvent" id="descEvent">
+          <span>Insira a capa para seu evento</span>
         </button>
-        <div class="eventContent">
-          <input type="text" name="" id="content" placeholder="Adicione uma descrição ao seu evento">
+        <img class="icon3" src="img/u_align-right-justify.svg" alt="">
+        <div class="desc">
+          <input type="text" name="" id="" placeholder="Adicione uma descrição ao seu evento">
         </div>
-        <div class="btn">
+        <div class="btnsGrid">
           <button>Excluir</button>
           <button>Salvar</button>
         </div>
       </form>
     </div>
   </section>
+
   <div class="container-geral">
     <div class="btns">
       <button class="btn-mode ativo"><img src="img/Vector.svg" alt="modo light">Light</button>
