@@ -8,10 +8,41 @@
 .eventDestaque {
   max-width: 100%;
   height: 205px;
+  margin-top: 75px;
+  padding: 30px 20px 0 20px;
+  border-radius: 15px;
+  background: linear-gradient(45deg, #7746b3, #bc27d8);
 }
 
 .eventDestaque h1 {
-  font-size: 1em;
-  line-height: 18px;
+  font-size: 2.4375em;
+  line-height: 53px;
+  font-weight: 800;
   color: #fff;
+}
+
+.eventDestaque p {
+  font-size: 1.25em;
+  line-height: 27px;
+  font-weight: lighter;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.eventDestaque progress {
+  appearance: none;
+  display: block;
+  width: 885px;
+  height: 5px;
+  overflow: hidden;
+}
+
+.eventDestaque progress::-webkit-progress-bar {
+  background: #6c2091;
+  border-radius: 10px;
+}
+
+.eventDestaque progress::-webkit-progress-value {
+  background: #18fbb5;
+  border-radius: 10px;
 }
